@@ -8,3 +8,7 @@ docker build . -t alagumuthiah/deep-dive-phase-2
 
 
 docker container run -p 8081:8081 --name deep2 -d alagumuthiah/deep-dive-phase-2
+
+docker build . -t alagumuthiah/deep-dive-phase-3
+
+docker container run -d -p 8082:80 -it alagumuthiah/deep-dive-phase-3
