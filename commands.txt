@@ -1,0 +1,10 @@
+PHASE -1
+docker build . -t alagumuthiah/deep-dive-phase-1
+
+docker container run -p 8080:80 --name deep1 -d alagumuthiah/deep-dive-phase-1
+
+PHASE - 2
+docker build . -t alagumuthiah/deep-dive-phase-2
+
+
+docker container run -p 8081:8081 --name deep2 -d alagumuthiah/deep-dive-phase-2
